@@ -5,11 +5,13 @@
     const content = document.createElement("div");
     const footer = document.createElement("footer");
     const footerBtn = document.createElement("ui5-button");
+    const testContent = document.firstElementChild;
     // set attributes
     dialog.setAttribute("header-text", "Third Party JavaScript");
     footer.setAttribute("slot", "footer");
     // content
-    content.innerHTML = "This dialog was created by third party JS file";
+    //content.innerHTML = "This dialog was created by third party JS file";
+    content.innerHTML = testContent;
     content.style.padding = "1rem";
     // footer btn
     footerBtn.onclick = () => dialog.close();
