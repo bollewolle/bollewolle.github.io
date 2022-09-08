@@ -6,6 +6,9 @@
     const footer = document.createElement("footer");
     const footerBtn = document.createElement("ui5-button");
     const testContent = document.firstElementChild;
+    // TEST console.log
+    console.log(testContent);
+    console.log(e.serviceCenterClickHandler);
     // set attributes
     dialog.setAttribute("header-text", "Third Party JavaScript");
     footer.setAttribute("slot", "footer");
